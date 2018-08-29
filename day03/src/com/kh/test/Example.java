@@ -22,4 +22,34 @@ public class Example {
 		System.out.println("두번째 문자 : " + str.charAt(1));
 		System.out.println("세번째 문자 : " + str.charAt(2));
 	}
+	
+	public void example4() {
+		System.out.print("정수 입력 : ");
+		int num = sc.nextInt();
+		int bit1, bit2, bit3, bit4, bit5, bit6, bit7, bit8;
+		bit1 = num%2;
+		num /= 2;
+		bit2 = num%2;
+		num /= 2;
+		bit3 = num%2;
+		num /= 2;
+		bit4 = num%2;
+		num /= 2;
+		bit5 = num%2;
+		num /= 2;
+		bit6 = num%2;
+		num /= 2;
+		bit7 = num%2;
+		num /= 2;
+		bit8 = num%2;
+		num /= 2;
+		System.out.print(bit8);
+		System.out.print(bit7);
+		System.out.print(bit6);
+		System.out.print(bit5);
+		System.out.print(bit4);
+		System.out.print(bit3);
+		System.out.print(bit2);
+		System.out.print(bit1);
+	}
 }
