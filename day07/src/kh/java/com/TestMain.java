@@ -16,7 +16,9 @@ public class TestMain {
 		//ex.ex10();
 		//ex.ex11();
 		//ex.ex12();
-		ex.ex13();
+		//ex.ex13();
+		Cal c = new Cal();
+		c.calcu();
 	}
 
 }
