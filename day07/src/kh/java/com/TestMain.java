@@ -1,5 +1,7 @@
 package kh.java.com;
 
+import java.util.Random;
+
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -18,7 +20,18 @@ public class TestMain {
 		//ex.ex12();
 		//ex.ex13();
 		Cal c = new Cal();
-		c.calcu();
+		//c.calcu();
+		
+		Random r = new Random();
+		while(true) {
+			int data = r.nextInt(6)+1;
+			System.out.println(data);
+			try {
+				Thread.sleep(400);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 }
