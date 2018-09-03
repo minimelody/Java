@@ -4,8 +4,9 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		Calculator cal = new Calculator();
-		cal.start();
-
+		//cal.start();
+		CharChange ch = new CharChange();
+		ch.test();
 	}
 
 }
